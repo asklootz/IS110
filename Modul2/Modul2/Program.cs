@@ -11,9 +11,7 @@
             myCar.SetBrand("Mercedes");
             myCar.SetModel("S-Class");
             myCar.SetYear("1998");
-            myCar.GetBrand();
-            myCar.GetModel();
-            myCar.GetYear();
+            Console.WriteLine($"The car is a {myCar.GetBrand()}, model {myCar.GetModel()} from the year {myCar.GetYear()}");
             
 
             Calculator myCalculator = new Calculator(); //Running task 3

@@ -27,17 +27,14 @@ class Car
     //Methods to get the car brand, model and year variables and print them out
     public string GetBrand()
     {
-        Console.WriteLine("Car brand: " + brand);
         return brand;
     }
     public string GetModel()
     {
-        Console.WriteLine("Car model: " + model);
         return model;
     }
     public string GetYear()
     {
-        Console.WriteLine("Car year: " + year);
         return year;
     }
 }
