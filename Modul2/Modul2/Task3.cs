@@ -55,3 +55,13 @@ class Calculator
     }
     
 }
+
+/*
+Øvelse 3:
+
+Lag en klasse og kall den "Kalkulator". Definer "nummer1", "nummer2" og "resultat" som desimale tall i klassen, her bruk C# sin automatiske egenskaper. 
+Skrive koden som lager set og hent metoder for de instans variablene. 
+Lag en metode eller flere metoder som tar verdiene for nummer1 og nummer2 fra brukeren og gjennomfør addisjon, subtraksjon, multiplikasjon og divisjon operasjoner på dem. 
+Etterpå skal metoden/metodene skrive ut resultatet for hver matematisk operasjon til brukeren. 
+Lag et objekt av "Kalkulator" klassen i Program.cs og kall metoden/metodene på det objektet.
+*/
