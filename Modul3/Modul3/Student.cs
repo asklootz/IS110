@@ -33,7 +33,7 @@ class Student
 
     public void ExpectedGradesAfterXYears(double improvement)
     {
-        newAverageGrade = averageGrade * improvement + averageGrade;
+        newAverageGrade = years * improvement + averageGrade;
         Console.WriteLine($"Expected average grade after {years} years with improvement of {improvement} per year is: {newAverageGrade}");
     }
 
