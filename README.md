@@ -9,3 +9,7 @@ Module for week one, work to make a simple Console App to run and experiment wit
 ## Module 2
 Module for week two, work to make classes with private variables and use get and set methods to change the variables
 Also simple mathematical tasks to make a simple calculator
+
+## Module 3
+Modeule for week three, working on making a simple script that will take a users information and create a student-class object. 
+This will then allow us to run differnt attributes in different methods required for the tasks. 
