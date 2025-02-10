@@ -16,4 +16,8 @@ This will then allow us to run differnt attributes in different methods required
 
 ## Module 4
 Module for week four is based on chapter 4 in the book "Visual C#, How to program, 6th edition" by Paul Deitel and Harvey Deitel
-It covers tasts 4.9 to 4.12 after what was asked from the school
+It covers tasks 4.9 to 4.12 after what was asked from the school
+
+## Module 5
+Module for week 5 is based on chapter 5 in the book "Visual C#, How to program, 6th edition" by Paul Deitel and Harvey Deitel
+It covers tasks 5.3 to 5.6, 5.8, 5.9, 5.11 to 5.16 and 5.18 to 5.26

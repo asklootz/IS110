@@ -35,7 +35,7 @@ class Account // Class for task 4.9
 
     public void Withdraw(decimal withdrawAmount) // Method that withdraws only a valid amount
     {
-        if (withdrawAmount < balance && withdrawAmount > 0.0m)
+        if (withdrawAmount <= balance && withdrawAmount > 0.0m)
         {
             Balance -= withdrawAmount;
             Console.WriteLine($"Withdrawing {withdrawAmount:C} from {name}'s account.");

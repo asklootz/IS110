@@ -1,0 +1,117 @@
+Answers for 5.8 to 5.16 and 5.25 to 5.26 is written here
+
+
+5.8
+a)  Missing closing curly bracket
+while (c <= 5) 
+    {
+        product *= c;
+        ++c;
+    }
+b)  Remove semi-colon in front of else-statement
+if (gender == 1)
+{
+    Console.WriteLine("Woman");
+}
+else
+{
+    Console.WriteLine("Man");
+}
+
+5.9
+The value of z in never changed in the loop, making the while-loop run forever if the condition is met. 
+
+5.11
+It returns another integer, and will silently round to the nearest whole number
+This can be avoided using anoter variable type (double, float, decimal)
+
+5.12
+It is often used to make a shortend if-else statement, therefore making it a conditional operator
+a ? b : c => if a then b else c
+
+5.13
+I'd use a for-statement and loop to make it so that it will check the first 100 numbers in a list
+for (int i = 0; i < 100; i++) => Increases the i-integer each time it loops, but making sure it stops before 100 and starts at 0, running 0 to 99, 100 numbers
+For an arbitrary amount of numbers I'd still use a for-loop to run the amount needed
+for (int i = 0; i < "arbitrary number"; i++) this loop works the same but will take and compare i to the arbitrary number
+
+5.14
+It is the accuracy they can display decimals, double is more accurate than float.
+float is about 6-9 digits
+double is about 15-17 digits
+
+5.15
+a) Can't have semicolon on the conditional if statement
+b) Can't define x to a number and another variable at the same time
+c) Missing curly brackets
+d) Missing final curly brackets
+
+5.16
+define int variable "number" as 1
+define int variables sum1 as 0, and sum2 as 0
+While "number" is less than or equal to 15
+    if "number" can be divided by 2 and have a remainder => add current number sum1 and write out sum1 and sum2 and increase number by 1
+    else => add current number to sum2 and write out sum1 and sum2 and increase number by 1
+OUTPUT:
+1      0
+1      2
+4      2
+4      6
+9      6
+9      12
+16      12
+16      20
+25      20
+25      30
+36      30
+36      42
+49      42
+49      56
+64      56
+
+5.25
+define int variable "number" as 50
+While number is greater than or equal to 40
+    Using ? conditional statement
+        if number * 100 / 50 is greater than 90 => print "A*"
+        else => print "B"
+    decrement number with 1
+OUTPUT:
+A*
+A*
+A*
+A*
+A*
+B
+B
+B
+B
+B
+B
+
+5.26
+define int row as 10
+define int column
+While row is greater than or equal to 1
+    set column to 1
+    while column is less than or equal to 10
+        Using ? conditional statement
+            if row is divisible by 2 without a remainder => print (on the same line) "<"
+            else print (on the same line) ">"
+        incriment column by 1
+    decrement row by 1
+    Print out all the characters that was printed in the first run of first while loop
+
+
+OUTPUT:
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+
